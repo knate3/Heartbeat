@@ -1,0 +1,22 @@
+{
+  "name": "heartbeat",
+  "version": "0.0.1",
+  "description": "A multi propose discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knate3/Heartbeat.git"
+  },
+  "author": "knate3#9781",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knate3/Heartbeat/issues"
+  },
+  "homepage": "https://github.com/knate3/Heartbeat#readme",
+  "dependencies": {
+    "eslint": "^6.8.0"
+  }
+}
