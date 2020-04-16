@@ -4,12 +4,12 @@ const Discord = require('discord.js');
 
 // Required file paths
 const Keys = require('./keys.json');
-const Settings = require('./settings.json');
+const Bot_Settings = require('./bot_settings.json');
 
 class Heartbeat extends Discord.client {
     constructor(options) {
         super(options);
         this.keys = Keys;
-        this.settings = Settings;
+        this.bot_settings = Bot_Settings;
     }
 }
