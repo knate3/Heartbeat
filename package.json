@@ -1,6 +1,6 @@
 {
   "name": "heartbeat",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A multi propose discord bot",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,17 @@
     "url": "https://github.com/knate3/Heartbeat/issues"
   },
   "homepage": "https://github.com/knate3/Heartbeat#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  },
   "dependencies": {
-    "eslint": "^6.8.0"
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.23.1",
+    "discord.js": "^13.1.0",
+    "fs": "^0.0.1-security",
+    "klaw": "^3.0.0",
+    "mongodb": "^4.1.2",
+    "os": "^0.1.2",
+    "path": "^0.12.7"
   }
 }
